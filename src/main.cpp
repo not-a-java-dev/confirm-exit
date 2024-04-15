@@ -12,7 +12,7 @@ class $modify(MyPauseLayer, PauseLayer) {
 			PauseLayer::onQuit(sender);
 			return;
 		}
-		geode::createQuickPopup("Exit?", "Are you sure you want to exit the level?", "No", "Yes", [this, sender](auto, bool btn2){
+		geode::createQuickPopup("Exit?", "Are you sure you want to <cr>exit the level?</c>", "No", "Yes", [this, sender](auto, bool btn2){
 			if (!btn2) {
 				return; // don't exit!
 			}
