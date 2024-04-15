@@ -1,0 +1,17 @@
+{
+	"geode": "2.0.0-beta.23",
+	"gd": "2.204",
+	"version": "v1.0.0",
+	"id": "najd.confirm_exit",
+	"name": "Confirm Exit",
+	"developer": "NAJD",
+	"description": "Confirms exit!",
+	"settings": {
+		"enabled": {
+			"name": "Confirm Exit",
+			"type": "bool",
+			"default": true
+		}
+	},
+	"repository": "https://github.com/not-a-java-dev/confirm-exit"
+}
